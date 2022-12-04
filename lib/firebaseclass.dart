@@ -1,8 +1,8 @@
 // import 'package:firebase_core/firebase_core.dart';
 
-import 'dart:convert';
-
+// import 'dart:convert';
 import 'package:firebase_auth/firebase_auth.dart';
+// import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:login/Loginpage.dart';
 import 'package:login/confirmpasspass.dart';
@@ -108,4 +108,7 @@ class FirebaseAuthin {
       }
     }
   }
+  // register()async{
+  //   final storage = FirebaseStorage.instance.;
+  // }
 }
